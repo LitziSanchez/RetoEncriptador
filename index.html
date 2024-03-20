@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador | Litzi Sanchez </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images/Logo.png" alt="Logo Alura"></li>
+                <li> <h1>Challenge Encriptador</h1></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="app">
+                <textarea id="mensaje" id="" cols="40" rows="15" placeholder="Ingrese texto aquí"></textarea>
+                <p>Solo minúsculas y sin acentos, ni caracteres especiales</p>
+                <div class="botones">
+                    
+                    <button id="btn-encriptar">Encriptar</button>
+                    <button id="btn-desencriptar">Desencriptar</button>
+                </div>
+
+        </section>
+        <section class="resultado">
+            <div class="mensaje-error">
+                <img src="images/gato-lupa.png" alt="Error mensaje">
+                <h3>Ningun mensaje fue encontrado</h3>
+                <p>Ingrese el texto que desea encriptar o desencriptar.</p>
+            </div>
+            <div class="mensaje-encriptado-desencriptado ocultar">
+                <p id="msj-resultado">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas assumenda earum quam repudiandae aspernatur quod doloribus, dolores vitae voluptate facilis esse saepe aperiam enim, provident, veniam dignissimos aliquid at molestias!</p>
+                <button id="btn-copiar">Copiar</button>
+            </div>
+       
+        </section>
+    </main>
+
+    <footer>Proyecto de <a href="https://www.linkedin.com/in/litzisanchez/" target="_blank">Litzi Sánchez</a> <br> en Alura LATAM | Oracle Next Education </footer>
+<script src="app.js"></script>
+</body>
+</html>
+
